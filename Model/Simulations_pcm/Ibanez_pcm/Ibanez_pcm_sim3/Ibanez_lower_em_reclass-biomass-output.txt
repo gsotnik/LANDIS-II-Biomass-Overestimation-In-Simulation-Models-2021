@@ -1,0 +1,19 @@
+>> Name: Ibanez_lower_em_reclass-biomass-output
+>> Data: Initially created by M. Duveneck. Modified by G. Sotnik on May 21st, 2020.
+
+LandisData  "Output Biomass Reclass"
+
+Timestep 5
+
+ReclassMaps
+>> Map Name    Forest Type    Species
+>> --------    -------------  -------
+
+   reclass1 ->	1northernhard	acersacc prunsero querrubr tiliamer -popugran -poputrem
+		2white_pine	pinustro 
+		3aspen_birch  	poputrem popugran  betupapy popubals -acersacc -abiebals
+		4red_jack_pine	pinubank pinuresi
+		5oak 		querrubr queralba quervelu querelli quermacr -picemari -abiebals -piceglau
+		6spuce_fir	picemari abiebals piceglau thujocci -acersacc -pinubank
+
+MapFileNames   reclass/{reclass-map-name}-{timestep}.img
